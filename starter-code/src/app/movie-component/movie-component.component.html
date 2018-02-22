@@ -1,0 +1,15 @@
+
+<div class="movie-full">
+<p>Room {{movie.room}} - {{movie.title}}</p>
+<div class="poster">
+  <img [src]="movie.poster" width="250px" height="375px"><br>
+</div>
+  <div class="info">
+<b>Genres:</b> {{movie.genres}}<br><br><br>
+<b>Year:</b>{{movie.year}}<br><br><br>
+<b>Director:</b>{{movie.director}}<br><br><br>
+<b>Schedule:</b>{{movie.hours}}<br><br>
+<b>Synopsis:</b>{{movie.synopsis}}<br><br>
+</div>
+</div>
+<button class="btn btn-success" [routerLink]="['/home']">Home</button>

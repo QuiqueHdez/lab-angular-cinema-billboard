@@ -1,0 +1,8 @@
+
+<div  class="movies"*ngFor="let a of movies">
+  
+  <p>ROOM: {{a.room}}</p>
+  <a (click)="goToMovie(a.id)"><img src={{a.poster}} width="200px"height="300px"></a>
+  <p>{{a.title}}</p>
+
+</div>

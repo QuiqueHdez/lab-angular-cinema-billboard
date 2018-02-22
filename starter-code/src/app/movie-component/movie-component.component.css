@@ -1,0 +1,16 @@
+.poster{
+  margin-left: 300px;
+     float: left;
+    display: inline-block;
+    text-align: center
+}
+.info{
+    width:300px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+    float: left;
+}
+.movie-full{
+    text-align: center
+}
